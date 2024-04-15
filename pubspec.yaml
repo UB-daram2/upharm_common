@@ -29,12 +29,14 @@ dependencies:
   shared_preferences: ^2.2.2
   timeago: ^3.2.2
   url_launcher: ^6.1.10
-  uuid: ^3.0.7
+  uuid: ^4.4.0
   rxdart: ^0.27.7
   auto_exporter: ^3.0.2
   json_annotation: ^4.8.1
   signalr_netcore: ^0.1.7+2-nullsafety.3
-
+  currency_text_input_formatter: ^2.1.11
+  dart_des: ^1.0.2
+  win32_registry: ^1.1.2
 dev_dependencies:
   flutter_lints: ^3.0.1
   dependency_validator: ^3.2.3

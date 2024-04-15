@@ -177,106 +177,106 @@ class ThemeTypography extends Typography {
 
   WidgetTheme theme;
 
-  String get displayLargeFamily => 'Inter';
+  String get displayLargeFamily => 'Gothic A1';
   TextStyle get displayLarge => GoogleFonts.getFont(
-        'Inter',
+        'Gothic A1',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 57.0,
       );
-  String get displayMediumFamily => 'Inter';
+  String get displayMediumFamily => 'Gothic A1';
   TextStyle get displayMedium => GoogleFonts.getFont(
-        'Inter',
+        'Gothic A1',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 45.0,
       );
-  String get displaySmallFamily => 'Inter';
+  String get displaySmallFamily => 'Gothic A1';
   TextStyle get displaySmall => GoogleFonts.getFont(
-        'Inter',
+        'Gothic A1',
         color: theme.primaryText,
         fontWeight: FontWeight.bold,
         fontSize: 30.0,
       );
-  String get headlineLargeFamily => 'Inter';
+  String get headlineLargeFamily => 'Gothic A1';
   TextStyle get headlineLarge => GoogleFonts.getFont(
-        'Inter',
+        'Gothic A1',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 32.0,
       );
-  String get headlineMediumFamily => 'Inter';
+  String get headlineMediumFamily => 'Gothic A1';
   TextStyle get headlineMedium => GoogleFonts.getFont(
-        'Inter',
+        'Gothic A1',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
         fontSize: 24.0,
       );
-  String get headlineSmallFamily => 'Inter';
+  String get headlineSmallFamily => 'Gothic A1';
   TextStyle get headlineSmall => GoogleFonts.getFont(
-        'Inter',
+        'Gothic A1',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
         fontSize: 20.0,
       );
-  String get titleLargeFamily => 'Readex Pro';
+  String get titleLargeFamily => 'Gothic A1';
   TextStyle get titleLarge => GoogleFonts.getFont(
-        'Readex Pro',
+        'Gothic A1',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
         fontSize: 22.0,
       );
-  String get titleMediumFamily => 'Readex Pro';
+  String get titleMediumFamily => 'Gothic A1';
   TextStyle get titleMedium => GoogleFonts.getFont(
-        'Readex Pro',
+        'Gothic A1',
         color: theme.info,
         fontWeight: FontWeight.w500,
         fontSize: 16.0,
       );
-  String get titleSmallFamily => 'Readex Pro';
+  String get titleSmallFamily => 'Gothic A1';
   TextStyle get titleSmall => GoogleFonts.getFont(
-        'Readex Pro',
+        'Gothic A1',
         color: theme.info,
         fontWeight: FontWeight.w500,
         fontSize: 14.0,
       );
-  String get labelLargeFamily => 'Readex Pro';
+  String get labelLargeFamily => 'Gothic A1';
   TextStyle get labelLarge => GoogleFonts.getFont(
-        'Readex Pro',
+        'Gothic A1',
         color: theme.secondaryText,
         fontWeight: FontWeight.w500,
         fontSize: 16.0,
       );
-  String get labelMediumFamily => 'Readex Pro';
+  String get labelMediumFamily => 'Gothic A1';
   TextStyle get labelMedium => GoogleFonts.getFont(
-        'Readex Pro',
+        'Gothic A1',
         color: theme.secondaryText,
         fontWeight: FontWeight.w500,
         fontSize: 14.0,
       );
-  String get labelSmallFamily => 'Readex Pro';
+  String get labelSmallFamily => 'Gothic A1';
   TextStyle get labelSmall => GoogleFonts.getFont(
-        'Readex Pro',
+        'Gothic A1',
         color: theme.secondaryText,
         fontWeight: FontWeight.w500,
         fontSize: 12.0,
       );
-  String get bodyLargeFamily => 'Readex Pro';
+  String get bodyLargeFamily => 'Gothic A1';
   TextStyle get bodyLarge => GoogleFonts.getFont(
-        'Readex Pro',
+        'Gothic A1',
         color: theme.primaryText,
         fontSize: 16.0,
       );
-  String get bodyMediumFamily => 'Readex Pro';
+  String get bodyMediumFamily => 'Gothic A1';
   TextStyle get bodyMedium => GoogleFonts.getFont(
-        'Readex Pro',
+        'Gothic A1',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,
       );
-  String get bodySmallFamily => 'Readex Pro';
+  String get bodySmallFamily => 'Gothic A1';
   TextStyle get bodySmall => GoogleFonts.getFont(
-        'Readex Pro',
+        'Gothic A1',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 12.0,
@@ -323,7 +323,7 @@ extension TextStyleHelper on TextStyle {
   }) =>
       useGoogleFonts
           ? GoogleFonts.getFont(
-              fontFamily!,
+              fontFamily ?? 'Gothic A1',
               color: color ?? this.color,
               fontSize: fontSize ?? this.fontSize,
               letterSpacing: letterSpacing ?? this.letterSpacing,

@@ -1,0 +1,10 @@
+C:\Users\daram2\Downloads\SqlServerSocket-master\Server\SqlServerSocket\bin\Debug\SockedSql.exe.config
+C:\Users\daram2\Downloads\SqlServerSocket-master\Server\SqlServerSocket\bin\Debug\SockedSql.exe
+C:\Users\daram2\Downloads\SqlServerSocket-master\Server\SqlServerSocket\bin\Debug\SockedSql.pdb
+C:\Users\daram2\Downloads\SqlServerSocket-master\Server\SqlServerSocket\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daram2\Downloads\SqlServerSocket-master\Server\SqlServerSocket\bin\Debug\Newtonsoft.Json.xml
+C:\Users\daram2\Downloads\SqlServerSocket-master\Server\SqlServerSocket\obj\Debug\SqlServerSocket.csproj.AssemblyReference.cache
+C:\Users\daram2\Downloads\SqlServerSocket-master\Server\SqlServerSocket\obj\Debug\SqlServerSocket.csproj.CoreCompileInputs.cache
+C:\Users\daram2\Downloads\SqlServerSocket-master\Server\SqlServerSocket\obj\Debug\SqlServerSocket.csproj.CopyComplete
+C:\Users\daram2\Downloads\SqlServerSocket-master\Server\SqlServerSocket\obj\Debug\SockedSql.exe
+C:\Users\daram2\Downloads\SqlServerSocket-master\Server\SqlServerSocket\obj\Debug\SockedSql.pdb

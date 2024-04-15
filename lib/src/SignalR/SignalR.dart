@@ -1,7 +1,6 @@
-// ignore_for_file: unused_local_variable, avoid_print, file_names, prefer_final_fields
+// ignore_for_file: unused_local_variable, avoid_print, file_names, prefer_final_fields, constant_identifier_names
 import 'dart:async';
 import 'dart:convert';
-
 import 'package:signalr_netcore/signalr_client.dart';
 import 'package:uuid/uuid.dart';
 

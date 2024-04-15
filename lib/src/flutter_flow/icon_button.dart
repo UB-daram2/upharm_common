@@ -130,6 +130,7 @@ class _WgIconButtonState extends State<WgIconButton> {
         child: IgnorePointer(
           ignoring: (widget.showLoadingIndicator && loading),
           child: IconButton(
+            visualDensity: VisualDensity.compact,
             icon: (widget.showLoadingIndicator && loading)
                 ? SizedBox(
                     width: iconSize,
